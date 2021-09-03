@@ -1,0 +1,186 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mascotas"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml
+10
+11    <!--
+12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+13         Google Maps Android API v2, but you must specify either coarse or fine
+14         location permissions for the 'MyLocation' functionality.
+15    -->
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:10:5-79
+16-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:11:5-67
+17-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:11:22-64
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:12:5-81
+18-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:12:22-78
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:13:5-80
+19-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:13:22-77
+20
+21    <!-- Include required permissions for Google Maps API to run. -->
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\847629db1e4e7f68f4f102d3e7243360\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\847629db1e4e7f68f4f102d3e7243360\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+23
+24    <uses-feature
+24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\847629db1e4e7f68f4f102d3e7243360\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+25        android:glEsVersion="0x00020000"
+25-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\847629db1e4e7f68f4f102d3e7243360\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+26        android:required="true" />
+26-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\847629db1e4e7f68f4f102d3e7243360\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+27
+28    <application
+28-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:15:5-66:19
+29        android:allowBackup="true"
+29-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:16:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\1e9d166b3a0e828518d23bb46fb076ca\core-1.1.0\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:17:9-43
+33        android:label="@string/app_name"
+33-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:18:9-41
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:19:9-54
+35        android:supportsRtl="true"
+35-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:20:9-35
+36        android:testOnly="true"
+37        android:theme="@style/AppTheme" >
+37-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:21:9-40
+38
+39        <!--
+40             The API key for Google Maps-based APIs is defined as a string resource.
+41             (See the file "res/values/google_maps_api.xml").
+42             Note that the API key is linked to the encryption key used to sign the APK.
+43             You need a different API key for each encryption key, including the release key that is used to
+44             sign the APK for publishing.
+45             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+46        -->
+47        <meta-data
+47-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:30:9-32:71
+48            android:name="com.google.android.geo.API_KEY"
+48-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:31:13-58
+49            android:value="AIzaSyAirJdbMoGb2BRiDP5Lj5jYovb5Q_90xj0" />
+49-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:32:13-68
+50
+51        <activity
+51-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:35:9-37:50
+52            android:name="com.example.mascotas.Ubication"
+52-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:36:13-38
+53            android:label="Ubicacion" />
+53-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:37:13-38
+54        <activity
+54-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:38:9-47:20
+55            android:name="com.example.mascotas.fsa"
+55-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:39:13-32
+56            android:configChanges="orientation|keyboardHidden|screenSize"
+56-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:40:13-74
+57            android:label="+COTAS"
+57-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:41:13-35
+58            android:theme="@style/FullscreenTheme" >
+58-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:42:13-51
+59            <intent-filter>
+59-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:43:13-46:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:44:17-69
+60-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:44:25-66
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:45:17-77
+62-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:45:27-74
+63            </intent-filter>
+64        </activity>
+65        <activity
+65-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:48:9-51:59
+66            android:name="com.example.mascotas.Prod.DetailsProd"
+66-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:49:13-45
+67            android:label="Detalles del producto"
+67-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:50:13-50
+68            android:theme="@style/AppTheme.NoActionBar" />
+68-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:51:13-56
+69
+70        <meta-data
+70-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:52:17-55:19
+71            android:name="android.support.PARENT_ACTIVITY"
+71-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:53:21-67
+72            android:value=".Menu" />
+72-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:54:21-42
+73
+74        <activity android:name="com.example.mascotas.Prod.listprod" />
+74-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:56:9-51
+74-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:56:19-48
+75        <activity
+75-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:57:9-60:59
+76            android:name="com.example.mascotas.Menu"
+76-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:58:13-33
+77            android:label="@string/title_activity_menu"
+77-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:59:13-56
+78            android:theme="@style/AppTheme.NoActionBar" />
+78-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:60:13-56
+79        <activity
+79-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:61:9-65:54
+80            android:name="com.example.mascotas.fsa1"
+80-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:62:13-33
+81            android:configChanges="orientation|keyboardHidden|screenSize"
+81-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:63:13-74
+82            android:label="+COTAS"
+82-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:64:13-35
+83            android:theme="@style/FullscreenTheme" />
+83-->C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:65:13-51
+84        <!-- Needs to be explicitly declared on P+ -->
+85        <uses-library
+85-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\847629db1e4e7f68f4f102d3e7243360\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+86            android:name="org.apache.http.legacy"
+86-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\847629db1e4e7f68f4f102d3e7243360\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+87            android:required="false" />
+87-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\847629db1e4e7f68f4f102d3e7243360\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+88
+89        <provider
+89-->[com.squareup.picasso:picasso:2.71828] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\bd36aef7aae2013da9a262f757842fb3\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+90            android:name="com.squareup.picasso.PicassoProvider"
+90-->[com.squareup.picasso:picasso:2.71828] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\bd36aef7aae2013da9a262f757842fb3\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+91            android:authorities="com.example.mascotas.com.squareup.picasso"
+91-->[com.squareup.picasso:picasso:2.71828] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\bd36aef7aae2013da9a262f757842fb3\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+92            android:exported="false" />
+92-->[com.squareup.picasso:picasso:2.71828] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\bd36aef7aae2013da9a262f757842fb3\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+93
+94        <activity
+94-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\81819f5c632e90ebdc438174e51d1f39\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+95            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+95-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\81819f5c632e90ebdc438174e51d1f39\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+96            android:exported="false"
+96-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\81819f5c632e90ebdc438174e51d1f39\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+97            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+97-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\81819f5c632e90ebdc438174e51d1f39\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+98
+99        <meta-data
+99-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\1794db03d43497f04491c2b5f02378ed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+100            android:name="com.google.android.gms.version"
+100-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\1794db03d43497f04491c2b5f02378ed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+101            android:value="@integer/google_play_services_version" />
+101-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\1794db03d43497f04491c2b5f02378ed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+102
+103        <provider
+103-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\8192e3c9a0c74c73af6278314426aabf\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+104            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+104-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\8192e3c9a0c74c73af6278314426aabf\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+105            android:authorities="com.example.mascotas.lifecycle-process"
+105-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\8192e3c9a0c74c73af6278314426aabf\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+106            android:exported="false"
+106-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\8192e3c9a0c74c73af6278314426aabf\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+107            android:multiprocess="true" />
+107-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\8192e3c9a0c74c73af6278314426aabf\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+108    </application>
+109
+110</manifest>

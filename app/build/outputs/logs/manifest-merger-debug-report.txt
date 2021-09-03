@@ -1,0 +1,361 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:2:1-68:12
+MERGED from [androidx.navigation:navigation-ui:2.1.0-rc01] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\9df66c275f5d537a765824052450021a\jetified-navigation-ui-2.1.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\7ef4fd23b72ad66bf19f8d6c2cb08568\material-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\9a573c841b99118d8bcd97ca679a27e0\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\80b990bfcc36820aff6a456632f8105e\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.navigation:navigation-fragment:2.1.0-rc01] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\501fcac21c5651c9f4d4aa078ad6072c\navigation-fragment-2.1.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\8797491963dab66b9dd614f23c6dd4ab\lifecycle-extensions-2.1.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\70f6561b877cbd80647b849afe8da19e\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\847629db1e4e7f68f4f102d3e7243360\play-services-maps-17.0.0\AndroidManifest.xml:17:1-38:12
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\eaf354c38bd1ffc69c5a4cf4eea30cbb\jetified-volley-1.1.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\d6031849be537fca16f8359f8fb83eec\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\8df56f31d9248bcf37208000333472ee\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\bd36aef7aae2013da9a262f757842fb3\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\81819f5c632e90ebdc438174e51d1f39\play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\7ddb51c5da51dc5e1df1f81cfbe0dee2\play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\1794db03d43497f04491c2b5f02378ed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\7a5fa90c5ee23620697e7897cb9d1e19\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\80c0ea7b89ef798762300faa6028f097\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\28b229cd06ba8b45f67545602cca1db6\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\13401185572056ad399a8cd058f82a5f\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\fe6348fe939f43d95cf1631b58dbb14a\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\3eeca597da619055571530ffb9df30a9\transition-1.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\ab3cc96147cd1c2c4c5ac0eb42353a77\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\32ffd184398f302cd5780bbc5fa9ae50\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\aebc33cdbfd0e2baa3a0ec227ef5a1d1\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.1.0-rc01] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\46fc7fe459d68522b069df0a838dbbed\navigation-runtime-2.1.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\fabf41372d413463f3f1009720781b55\activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\8516ab3d913b3bbf659a203d95900364\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\54b4505674ff1fc574f1206c756a6759\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\d5bc9bc689bf3d8cd4cdd3a8060594b8\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\99d0b7d807174274231843e835eeb498\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\4df3d552a249f9138749c02a59e956f1\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\a13d68738e1d5e73007dd49ffbde6419\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\e643f3f6d971b31eb790b10c1a4690bf\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.1.0-rc01] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\da867de5381f07245937d5c841a84b48\navigation-common-2.1.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\1e9d166b3a0e828518d23bb46fb076ca\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\46a364b151163cb88ca02047100dfe01\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\8192e3c9a0c74c73af6278314426aabf\lifecycle-process-2.1.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\e6bc788eafcf6c4893b6b40cad4df038\lifecycle-service-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\755e3def5a354c859f403ad2ad79271e\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\938da96781acf95cf4fb451bd6934b1c\lifecycle-livedata-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\c947721106de454d29307591c8ec9332\lifecycle-livedata-core-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\8afb31c2dceacf53b497359e2cca7212\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\619234666ddcd7d55ed57542fcbaab97\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\906bde7a86e177e26a97e6e891544451\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\206c051687d4945d23474e9c1897ab1e\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\2cc835910a3d003ce851c97b23419c63\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\e7b7bc05e4968efd4756492ff52a296b\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\b82155a0523714d8b2f94b9508a23987\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\b15c28cd6f87d16bf64764a730c673a0\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\26e7851f5a4786027f0dec21cc0d2fa5\print-1.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:2:1-68:12
+	package
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:3:5-35
+		INJECTED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:2:1-68:12
+		INJECTED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:2:1-68:12
+		INJECTED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\847629db1e4e7f68f4f102d3e7243360\play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\847629db1e4e7f68f4f102d3e7243360\play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:13:22-77
+application
+ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:15:5-66:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\7ef4fd23b72ad66bf19f8d6c2cb08568\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\7ef4fd23b72ad66bf19f8d6c2cb08568\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\80b990bfcc36820aff6a456632f8105e\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\80b990bfcc36820aff6a456632f8105e\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\8797491963dab66b9dd614f23c6dd4ab\lifecycle-extensions-2.1.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\8797491963dab66b9dd614f23c6dd4ab\lifecycle-extensions-2.1.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\847629db1e4e7f68f4f102d3e7243360\play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\847629db1e4e7f68f4f102d3e7243360\play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\eaf354c38bd1ffc69c5a4cf4eea30cbb\jetified-volley-1.1.1\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\eaf354c38bd1ffc69c5a4cf4eea30cbb\jetified-volley-1.1.1\AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\bd36aef7aae2013da9a262f757842fb3\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\bd36aef7aae2013da9a262f757842fb3\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\81819f5c632e90ebdc438174e51d1f39\play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\81819f5c632e90ebdc438174e51d1f39\play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\7ddb51c5da51dc5e1df1f81cfbe0dee2\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\7ddb51c5da51dc5e1df1f81cfbe0dee2\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\1794db03d43497f04491c2b5f02378ed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\1794db03d43497f04491c2b5f02378ed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\1e9d166b3a0e828518d23bb46fb076ca\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\1e9d166b3a0e828518d23bb46fb076ca\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\8192e3c9a0c74c73af6278314426aabf\lifecycle-process-2.1.0\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\8192e3c9a0c74c73af6278314426aabf\lifecycle-process-2.1.0\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\2cc835910a3d003ce851c97b23419c63\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\2cc835910a3d003ce851c97b23419c63\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\1e9d166b3a0e828518d23bb46fb076ca\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:20:9-35
+	android:label
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:18:9-41
+	android:roundIcon
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:19:9-54
+	android:icon
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:17:9-43
+	android:allowBackup
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:16:9-35
+	android:theme
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:21:9-40
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:30:9-32:71
+	android:value
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:32:13-68
+	android:name
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:31:13-58
+activity#com.example.mascotas.Ubication
+ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:35:9-37:50
+	android:label
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:37:13-38
+	android:name
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:36:13-38
+activity#com.example.mascotas.fsa
+ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:38:9-47:20
+	android:label
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:41:13-35
+	android:configChanges
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:40:13-74
+	android:theme
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:42:13-51
+	android:name
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:39:13-32
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:43:13-46:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:44:17-69
+	android:name
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:44:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:45:17-77
+	android:name
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:45:27-74
+activity#com.example.mascotas.Prod.DetailsProd
+ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:48:9-51:59
+	android:label
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:50:13-50
+	android:theme
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:51:13-56
+	android:name
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:49:13-45
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:52:17-55:19
+	android:value
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:54:21-42
+	android:name
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:53:21-67
+activity#com.example.mascotas.Prod.listprod
+ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:56:9-51
+	android:name
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:56:19-48
+activity#com.example.mascotas.Menu
+ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:57:9-60:59
+	android:label
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:59:13-56
+	android:theme
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:60:13-56
+	android:name
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:58:13-33
+activity#com.example.mascotas.fsa1
+ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:61:9-65:54
+	android:label
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:64:13-35
+	android:configChanges
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:63:13-74
+	android:theme
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:65:13-51
+	android:name
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml:62:13-33
+uses-sdk
+INJECTED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml
+MERGED from [androidx.navigation:navigation-ui:2.1.0-rc01] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\9df66c275f5d537a765824052450021a\jetified-navigation-ui-2.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.1.0-rc01] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\9df66c275f5d537a765824052450021a\jetified-navigation-ui-2.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\7ef4fd23b72ad66bf19f8d6c2cb08568\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\7ef4fd23b72ad66bf19f8d6c2cb08568\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\9a573c841b99118d8bcd97ca679a27e0\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\9a573c841b99118d8bcd97ca679a27e0\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\80b990bfcc36820aff6a456632f8105e\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\80b990bfcc36820aff6a456632f8105e\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-fragment:2.1.0-rc01] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\501fcac21c5651c9f4d4aa078ad6072c\navigation-fragment-2.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.1.0-rc01] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\501fcac21c5651c9f4d4aa078ad6072c\navigation-fragment-2.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\8797491963dab66b9dd614f23c6dd4ab\lifecycle-extensions-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\8797491963dab66b9dd614f23c6dd4ab\lifecycle-extensions-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\70f6561b877cbd80647b849afe8da19e\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\70f6561b877cbd80647b849afe8da19e\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\847629db1e4e7f68f4f102d3e7243360\play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\847629db1e4e7f68f4f102d3e7243360\play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\eaf354c38bd1ffc69c5a4cf4eea30cbb\jetified-volley-1.1.1\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\eaf354c38bd1ffc69c5a4cf4eea30cbb\jetified-volley-1.1.1\AndroidManifest.xml:7:5-43
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\d6031849be537fca16f8359f8fb83eec\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\d6031849be537fca16f8359f8fb83eec\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\8df56f31d9248bcf37208000333472ee\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\8df56f31d9248bcf37208000333472ee\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\bd36aef7aae2013da9a262f757842fb3\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\bd36aef7aae2013da9a262f757842fb3\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\81819f5c632e90ebdc438174e51d1f39\play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\81819f5c632e90ebdc438174e51d1f39\play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\7ddb51c5da51dc5e1df1f81cfbe0dee2\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\7ddb51c5da51dc5e1df1f81cfbe0dee2\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\1794db03d43497f04491c2b5f02378ed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\1794db03d43497f04491c2b5f02378ed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\7a5fa90c5ee23620697e7897cb9d1e19\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\7a5fa90c5ee23620697e7897cb9d1e19\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\80c0ea7b89ef798762300faa6028f097\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\80c0ea7b89ef798762300faa6028f097\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\28b229cd06ba8b45f67545602cca1db6\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\28b229cd06ba8b45f67545602cca1db6\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\13401185572056ad399a8cd058f82a5f\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\13401185572056ad399a8cd058f82a5f\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\fe6348fe939f43d95cf1631b58dbb14a\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\fe6348fe939f43d95cf1631b58dbb14a\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\3eeca597da619055571530ffb9df30a9\transition-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\3eeca597da619055571530ffb9df30a9\transition-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\ab3cc96147cd1c2c4c5ac0eb42353a77\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\ab3cc96147cd1c2c4c5ac0eb42353a77\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\32ffd184398f302cd5780bbc5fa9ae50\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\32ffd184398f302cd5780bbc5fa9ae50\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\aebc33cdbfd0e2baa3a0ec227ef5a1d1\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\aebc33cdbfd0e2baa3a0ec227ef5a1d1\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.1.0-rc01] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\46fc7fe459d68522b069df0a838dbbed\navigation-runtime-2.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.1.0-rc01] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\46fc7fe459d68522b069df0a838dbbed\navigation-runtime-2.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\fabf41372d413463f3f1009720781b55\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\fabf41372d413463f3f1009720781b55\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\8516ab3d913b3bbf659a203d95900364\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\8516ab3d913b3bbf659a203d95900364\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\54b4505674ff1fc574f1206c756a6759\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\54b4505674ff1fc574f1206c756a6759\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\d5bc9bc689bf3d8cd4cdd3a8060594b8\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\d5bc9bc689bf3d8cd4cdd3a8060594b8\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\99d0b7d807174274231843e835eeb498\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\99d0b7d807174274231843e835eeb498\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\4df3d552a249f9138749c02a59e956f1\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\4df3d552a249f9138749c02a59e956f1\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\a13d68738e1d5e73007dd49ffbde6419\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\a13d68738e1d5e73007dd49ffbde6419\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\e643f3f6d971b31eb790b10c1a4690bf\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\e643f3f6d971b31eb790b10c1a4690bf\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.1.0-rc01] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\da867de5381f07245937d5c841a84b48\navigation-common-2.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.1.0-rc01] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\da867de5381f07245937d5c841a84b48\navigation-common-2.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\1e9d166b3a0e828518d23bb46fb076ca\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\1e9d166b3a0e828518d23bb46fb076ca\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\46a364b151163cb88ca02047100dfe01\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\46a364b151163cb88ca02047100dfe01\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\8192e3c9a0c74c73af6278314426aabf\lifecycle-process-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\8192e3c9a0c74c73af6278314426aabf\lifecycle-process-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\e6bc788eafcf6c4893b6b40cad4df038\lifecycle-service-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\e6bc788eafcf6c4893b6b40cad4df038\lifecycle-service-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\755e3def5a354c859f403ad2ad79271e\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\755e3def5a354c859f403ad2ad79271e\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\938da96781acf95cf4fb451bd6934b1c\lifecycle-livedata-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\938da96781acf95cf4fb451bd6934b1c\lifecycle-livedata-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\c947721106de454d29307591c8ec9332\lifecycle-livedata-core-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\c947721106de454d29307591c8ec9332\lifecycle-livedata-core-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\8afb31c2dceacf53b497359e2cca7212\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\8afb31c2dceacf53b497359e2cca7212\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\619234666ddcd7d55ed57542fcbaab97\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\619234666ddcd7d55ed57542fcbaab97\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\906bde7a86e177e26a97e6e891544451\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\906bde7a86e177e26a97e6e891544451\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\206c051687d4945d23474e9c1897ab1e\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\206c051687d4945d23474e9c1897ab1e\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\2cc835910a3d003ce851c97b23419c63\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\2cc835910a3d003ce851c97b23419c63\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\e7b7bc05e4968efd4756492ff52a296b\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\e7b7bc05e4968efd4756492ff52a296b\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\b82155a0523714d8b2f94b9508a23987\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\b82155a0523714d8b2f94b9508a23987\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\b15c28cd6f87d16bf64764a730c673a0\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\b15c28cd6f87d16bf64764a730c673a0\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\26e7851f5a4786027f0dec21cc0d2fa5\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\26e7851f5a4786027f0dec21cc0d2fa5\print-1.0.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\GIRO-\Documents\Android\MASCOTAS\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\847629db1e4e7f68f4f102d3e7243360\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\847629db1e4e7f68f4f102d3e7243360\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\847629db1e4e7f68f4f102d3e7243360\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\847629db1e4e7f68f4f102d3e7243360\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\847629db1e4e7f68f4f102d3e7243360\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\847629db1e4e7f68f4f102d3e7243360\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\847629db1e4e7f68f4f102d3e7243360\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\847629db1e4e7f68f4f102d3e7243360\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\bd36aef7aae2013da9a262f757842fb3\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\bd36aef7aae2013da9a262f757842fb3\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\bd36aef7aae2013da9a262f757842fb3\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\bd36aef7aae2013da9a262f757842fb3\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\81819f5c632e90ebdc438174e51d1f39\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\81819f5c632e90ebdc438174e51d1f39\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\81819f5c632e90ebdc438174e51d1f39\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\81819f5c632e90ebdc438174e51d1f39\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\1794db03d43497f04491c2b5f02378ed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\1794db03d43497f04491c2b5f02378ed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\1794db03d43497f04491c2b5f02378ed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\8192e3c9a0c74c73af6278314426aabf\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\8192e3c9a0c74c73af6278314426aabf\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\8192e3c9a0c74c73af6278314426aabf\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\8192e3c9a0c74c73af6278314426aabf\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\GIRO-\.gradle\caches\transforms-2\files-2.1\8192e3c9a0c74c73af6278314426aabf\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
