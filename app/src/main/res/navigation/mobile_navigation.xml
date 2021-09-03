@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_servicios">
+
+
+
+    <fragment
+        android:id="@+id/nav_servicios"
+        android:name="com.example.mascotas.Services.Servicios"
+        android:label="Servicios"
+        tools:layout="@layout/fragment_servicios">
+        <action
+            android:id="@+id/action_nav_servicios_to_nav_DetService"
+            app:destination="@id/nav_DetService"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@id/nav_servicios"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_productos"
+        android:name="com.example.mascotas.Prod.listprod"
+        android:label="Productos"
+        tools:layout="@layout/activity_listprod"/>
+
+
+    <fragment
+        android:id="@+id/nav_ubi"
+        android:name="com.example.mascotas.Ubication"
+        android:label="Ubicacion"
+        tools:layout="@layout/activity_ubication"/>
+    <fragment
+        android:id="@+id/nav_listServ"
+        android:name="com.example.mascotas.MisServices.miserv"
+        android:label="Mis servicios"
+        tools:layout="@layout/miserv"/>
+
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:label="Salir" />
+
+
+
+    <fragment
+        android:id="@+id/nav_DetService"
+        android:name="com.example.mascotas.Services.Pago"
+        android:label="Detalles del servicio"
+        tools:layout="@layout/act_pago">
+
+        <action android:id="@+id/action_pop_out_of_game"
+            app:destination="@id/nav_servicios"
+/>
+
+    </fragment>
+
+
+</navigation>

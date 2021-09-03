@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Services.Pago"
+    android:id="@+id/pa">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvMontoT"
+            android:gravity="center"
+            android:textSize="17dp"
+            android:textColor="@android:color/black"
+            android:text="$"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="82dp"
+                android:layout_height="wrap_content"
+                android:text="Nombre: "
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/edtNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nombre completo"
+                android:maxLength="50" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Domicilio: "
+                android:textSize="18dp"
+                android:textColor="@android:color/black"/>
+
+            <EditText
+                android:id="@+id/edtDomicilio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Calle, Colonia, Localidad"
+                android:maxLength="50" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="82dp"
+                android:layout_height="wrap_content"
+                android:text="Celular: "
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/edtCel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Numero de celular"
+                android:inputType="phone"
+                android:ems="10" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="82dp"
+                android:layout_height="wrap_content"
+                android:text="Correo: "
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/edtCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ejemplo@dominio.com"
+                android:inputType="textEmailAddress"
+                android:maxLength="70" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edtNumTar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Numero de tarjeta"
+            android:maxLength="16" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Codigo al reverso de tarjeta:"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/edtCodigo"
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:hint="843"
+                android:maxLength="3"
+                android:numeric="integer" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnPagar"
+            android:layout_width="243dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/style_btn"
+            android:text="Pagar"
+
+            android:textColor="@drawable/txt_btn" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

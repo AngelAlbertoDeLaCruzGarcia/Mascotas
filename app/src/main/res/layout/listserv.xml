@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/style_grid">
+
+    <TextView
+        android:id="@+id/txtCort"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@android:color/holo_red_dark"
+        android:gravity="center"
+        android:text="Corte"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtB1"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/txtCort"
+        android:layout_alignParentTop="true"
+        android:layout_margin="4dp"
+        android:background="@android:color/holo_red_dark"
+
+        android:gravity="center"
+        android:text="B1"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtB2"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:layout_toEndOf="@id/txtB1"
+        android:layout_margin="4dp"
+        android:text="B2"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txtRaz"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@android:color/holo_red_dark"
+        android:layout_toEndOf="@id/txtB2"
+        android:layout_alignParentTop="true"
+        android:layout_margin="4dp"
+        android:text="Raza"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txtT"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/holo_red_dark"
+        android:layout_toEndOf="@id/txtRaz"
+        android:layout_margin="4dp"
+        android:text="Tamaño"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txtPP"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/holo_red_dark"
+            android:layout_toEndOf="@id/txtT"
+            android:layout_margin="4dp"
+            android:text="Costo"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+</RelativeLayout>

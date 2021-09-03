@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Services.Servicios">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nuevo"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+
+        <CheckBox
+            android:id="@+id/Corte"
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Corte Sanitario"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/B1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Baños Medicados(B1)"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/B2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Baños Garrapaticidas(B2)"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spRaza"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginBottom="5dp" />
+
+        <Spinner
+            android:id="@+id/spTam"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+
+            android:descendantFocusability="blocksDescendants"
+            android:dropDownWidth="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnGuardar"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/style_btn"
+                android:text="guardar"
+                android:textColor="@drawable/txt_btn" />
+
+            <Button
+                android:id="@+id/btnReservar"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/style_btn"
+                android:text="reservar"
+                android:textColor="@drawable/txt_btn" />
+        </LinearLayout>
+        <RelativeLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtCort"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@android:color/holo_red_dark"
+                android:gravity="center"
+                android:text="Corte"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtB1"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/txtCort"
+                android:layout_alignParentTop="true"
+                android:layout_margin="4dp"
+                android:background="@android:color/holo_red_dark"
+
+                android:gravity="center"
+                android:text="B1"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtB2"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_red_dark"
+                android:layout_toEndOf="@id/txtB1"
+                android:layout_margin="4dp"
+                android:text="B2"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtRaz"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@android:color/holo_red_dark"
+                android:layout_toEndOf="@id/txtB2"
+                android:layout_alignParentTop="true"
+                android:layout_margin="4dp"
+                android:text="Raza"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtT"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@android:color/holo_red_dark"
+                android:layout_toEndOf="@id/txtRaz"
+                android:layout_margin="4dp"
+                android:text="Tamaño"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtPP"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@android:color/holo_red_dark"
+                android:layout_toEndOf="@id/txtT"
+                android:layout_margin="4dp"
+                android:text="Costo"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+            <GridView
+                android:id="@+id/gvMascotas"
+                android:layout_width="match_parent"
+                android:layout_height="204dp"
+                android:scrollbarSize="7dp"
+                android:scrollbars="vertical"
+
+
+                android:animateLayoutChanges="true"
+                android:animationCache="true"
+                android:focusableInTouchMode="true" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtP"
+            android:text="Total: $"
+            android:gravity="center"
+            android:textSize="17dp"
+            android:textColor="@android:color/black"
+
+        />
+        </LinearLayout>
+
+
+</FrameLayout>

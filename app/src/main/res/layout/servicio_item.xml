@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/textCort"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@android:color/holo_red_dark"
+        android:gravity="center"
+        android:text="Corte"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textB1"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/textCort"
+        android:layout_alignParentTop="true"
+        android:layout_margin="4dp"
+        android:background="@android:color/holo_red_dark"
+
+        android:gravity="center"
+        android:text="B1"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textB2"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:layout_toEndOf="@id/textB1"
+        android:layout_margin="4dp"
+        android:text="B2"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textRaz"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@android:color/holo_red_dark"
+        android:layout_toEndOf="@id/textB2"
+        android:layout_alignParentTop="true"
+        android:layout_margin="4dp"
+        android:text="Raza"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textT"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/holo_red_dark"
+        android:layout_toEndOf="@id/textRaz"
+        android:layout_margin="4dp"
+        android:text="Tamaño"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textPP"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/holo_red_dark"
+        android:layout_toEndOf="@id/textT"
+        android:layout_margin="4dp"
+        android:text="Costo"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</RelativeLayout>
